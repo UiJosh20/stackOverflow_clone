@@ -687,6 +687,136 @@ nav{
     padding: 10px;
     
   }
-    
+
+  .main3{
+    margin-top: 250px;
+  }
+
+  .main4{
+    padding: 0 10px;
+  }
+
+  .captureContainer{
+    width: 100%;
+    display: block;
+    padding: 0;
+  }
+
+  .captureYourCompany{
+    padding: 0px;
+    font-size: 16px;
+  }
+  .section3{
+    width: 100%;
+    padding: 10px 15px 10px 10px;
+  }
+
+  .index{
+    width: 100%;
+
+  }
+  .index>img{
+    width: 300px;
+    margin-left: 35px;
+  }
+  .block{
+    display: block;
+    width: 100%;
+  }
+  .none{
+    display: none;
+  }
+
+  .jumpIn{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .smallfo>p{
+    font-size: 13px;
+  }
   
+ .form-switch{
+  margin: 10px auto;
+ }
+ .displayBlock{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 16px;
+ }
+ .free{
+  width: 300px;
+  height: 500px;
+}
+.fontbig{
+  font-size: 25px;
+}
+.freebod{
+  border-bottom: 1px solid #f2740d;
+}
+.freebod>h6{
+  color: #b9b9b9;
+}
+.frecon{
+  background-color: #f2740d;
+  width: 50px;
+  height: 30px;
+}
+
+.frecon1{
+  background-color: grey;
+  width: 50px;
+  height: 30px;
+}
+.frecon2{
+  background-color: rgb(54, 53, 53);
+  width: 100px;
+  height: 30px;
+}
+
+.frecon3{
+  background-color: rgb(9, 22, 204);
+  width: 100px;
+  height: 30px;
+}
+.fresmall{
+  font-size: 12px;
+}
+.freebtn{
+  background-color: #f2740d;
+  width: 100%;
+  border: none;
+  margin-top: 10px;
+}
+
+.freebtn1{
+  background-color: rgb(219, 217, 217);
+  width: 100%;
+  border: none;
+  margin-top: -40px;
+}
+.freebtn2{
+  background-color: rgb(44, 43, 43);
+  width: 100%;
+  border: none;
+  margin-top: -10px;
+}
+.freebtn3{
+  background-color:  rgb(9, 22, 204);
+  width: 100%;
+  border: none;
+  margin-top: -40px;
+}
+.margine{
+  margin-bottom: 50px;
+}
+.margine1{
+  margin-top: -50px;
+  margin-left: 4px;
+}
+.business{
+  position: none;
+}
+
 }

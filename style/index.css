@@ -318,10 +318,10 @@ nav{
   padding: 0px 50px;
 }
 .section3{
-  height: fit-content;
+  height: 550vh;
   position: relative;
   bottom: 100px;
-  padding: 0px 100px;
+  padding: 0px 70px;
 }
 .fontfamily{
   font-family: 'Roboto Slab', sans-serif;
@@ -453,17 +453,27 @@ nav{
 .Scard{
   display: none;
 }
-.smallbox{
-  
+.heigh{
+  height: 200px;
 }
 .section4{
   width: 100%;
-  height: 200px;
-
   border: 2px solid red;
 }
+.trany2{
+  position: relative;
+  bottom: 30px;
+}
+.trany1{
+  position: relative;
+  top: 70px;
+}
 
-
+.section5{
+  position: relative;
+  bottom: 200px;
+  padding: 0px 100px !important;
+}
 
 
 
@@ -699,7 +709,12 @@ nav{
     padding: 10px;
     
   }
-
+  .section3{
+    height: fit-content;
+    position: relative;
+    bottom: 100px;
+    padding: 0px 70px;
+  }
   .main3{
     margin-top: 250px;
   }
@@ -832,6 +847,29 @@ nav{
 }
 .Hcard{
   display: none;
+}
+.Scard{
+  display: block;
+}
+.slackco{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.trany2{
+  padding: 10px auto !important;
+}
+.trany1{
+ padding: 10px auto !important;
+}
+.normal{
+  padding: 10px auto !important;
+}
+
+.section5{
+  position: relative;
+  bottom: 100px;
+  padding: 0px 20px !important;
 }
 
 }

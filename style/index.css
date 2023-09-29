@@ -475,7 +475,15 @@ nav{
   bottom: 200px;
   padding: 0px 100px !important;
 }
-
+.section6{
+  background-image: url(/images/stackimg14.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 850px;
+  width: 500px;
+  height: 300px;
+}
 
 
 
@@ -869,7 +877,7 @@ nav{
 
 .section5{
   position: relative;
-  bottom: 100px;
+  bottom: 60px;
   padding: 0px 50px !important;
 }
 

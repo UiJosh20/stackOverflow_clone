@@ -4,9 +4,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign In</title>
+  <link rel="stylesheet" href="/style/signin.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+  <nav class="w-100">
+    <a class="hamburger" href="#menu" id="hamburger-icon" class="col-sm">
+      <span class="material-icons text-dark sm">
+        menu
+      </span>
+    </a>
+    <a class="close hidden" href="#" id="close-icon">
+      <span class="material-icons text-dark">
+        close
+      </span>
+    </a>
+    <ul class="menu sm" id="menu">
+      <li><a href="index.html" class="home">Home</a></li>
+      <small>PUBLIC</small>
+      <li class="world"><img src="svg-export/svgexport-1.svg" alt=""><a href="#">Questions</a></li>
+      <li class="mx-3 my-2"><a href="">Tags</a></li>
+      <li class="mx-3 my-2"><a href="">Users</a></li>
+      <li class="mx-3 my-2"><a href="">Companies</a></li>
+
+      <small class="collect">COLLECTIVES <img src="svg-export/svgexport-2.svg" alt=""></small>
+      <li class="world"><img src="svg-export/svgexport-3.svg" alt=""><a href="#">Explore Collective</a></li>
+
+      <small class="collect mt-4">LABS <img src="svg-export/svgexport-2.svg" alt=""></small>
+      <li class="world"><img src="svg-export/svgexport-4.svg" alt=""><a href="#">Discussions</a> <img src="svg-export/svgexport-5.svg" alt="" class="mx-2"></li>
+
+      <small class="collect mt-4">TEAMS<img src="svg-export/svgexport-2.svg" alt=""></small>
+      <li class="mt-4 p-1 w-100">
+        <p class="font mx-3 text-break"><b>Stack Overflow for Teams –</b> Start collaborating and sharing organizational knowledge.
+        </p>
+      </li>
+
+      <img src="images/stackimg01.svg" alt="" class="mb-1 ms-4" width="150">
+      <button class="btn btn-primary mb-1 createacct"><a href="#" class="text-light">Create a free Team</a></button>
+      <small class="mb-5 text-center">Why Team?</small>
+    </ul>
+    <script src="javascript/index.js"></script>
+
+
+    <a href="" class="logo2">
+      <img src="svg-export/svgexport-61.svg" alt="logo" width="30">
+    </a>
+
+    <a href="index.html" class="logo">
+      <img src="images/logo.svg" alt="logo" width="150">
+    </a>
+    <span class="anchors">
+
+      <a href="#">About</a><a href="#" class="product">Product</a><a href="#">For Teams</a>
+    </span>
+
+    <span class="search">
+      <img src="svg-export/svgexport-11.svg" alt="">
+      <input type="text" placeholder="Search...">
+    </span>
+    <button class="btn mx-2 login"><a href="login.html" class="text-primary text-decoration-none font col-sm">Log in</a></button>
+    <button class="btn btn-primary"><a href="sigin.html" class="text-light text-decoration-none font">Sign up</a></button>
+  </nav>
+
   
 </body>
 </html>

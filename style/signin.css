@@ -1,0 +1,182 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+background-color:#f1f2f3;
+}
+nav{
+  border-top: 2px solid #f48225;
+  width: 100%;
+  padding: 10px;
+  /* height: 50px; */
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(194, 194, 194);
+  position: fixed;
+  top: 0;
+
+}
+
+.hamburger {
+  position: absolute;
+  /* a large z-index puts the ham button above the rest of the page*/
+  z-index: 99;
+  background: white;
+  border: none;
+  cursor: pointer;
+  top: 4px;
+  padding: 15px 5px 4px 10px;
+  height: 60px;
+  left: 60px;
+  width: 50px;
+  background-color: transparent;
+}
+
+.menu {
+  position: fixed;
+  /* give the menu a larger z-index than the ham link
+  to put the menu above it */
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 260px;
+  height: 100vh;
+  /* basic menu styling*/
+  list-style: none;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  /* animate slide up/down */
+  transform: translateY(-200%);
+  transition: linear 0.2s ease-in;
+  padding: 20px;
+  overflow-y:scroll;
+
+}
+
+
+
+/* Add a class to hide the close icon initially */
+.close {
+  position: absolute;
+  /* a large z-index puts the ham button above the rest of the page*/
+  z-index: 99;
+  background: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 5px 4px 10px;
+  height: 30px;
+  top: 10px;
+  left: 60px;
+  /* Add this line to hide the close icon initially */
+  display: none;
+}
+
+/* Add styles to show the close icon when the 'menu-open' class is applied */
+.close:not(.hidden) {
+  display: block;
+}
+
+/* Add styles to show the menu when the 'menu-open' class is applied */
+.menu.menu-open {
+  transform: translateY(55px);
+  margin-left: 40px;
+}
+
+
+.logo2{
+  display: none;
+}
+.logo{
+  margin-left: 120px;
+}
+.anchors{
+  margin-left: 40px;
+}
+.anchors a{
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-weight: bold; */
+  margin-right: 30px;
+  color: gray;
+}
+
+.search{
+  width: 630px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 5px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+  margin-left: -15px;
+}
+.search>img{
+  margin-right: 7px;
+}
+.search input{
+  border: none;
+  outline: none;
+  width: 500px;
+}
+.menu>small{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+  margin-left: -10px;
+  margin-top: 10px;
+  font-size: 10px;
+}
+.menu>li{
+  /* margin-top: 20px; */
+  margin-left: -10px;
+}
+.menu>li>.home{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
+
+.world{
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.menu a{
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(70, 70, 70);
+}
+
+.collect{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.world>img{
+  margin-right: 10px;
+}
+.font{
+  font-size: 13px;
+}
+
+.createacct{
+  background-color: #f48225!important;
+  border: none!important;
+}
+.login{
+  background-color: #e1ecf4!important;
+}
+.signature1{
+  width: 300px !important;
+  border: 1px solid rgb(179, 179, 179) !important;
+}
+.container2{
+  width: 400px !important;
+}

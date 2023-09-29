@@ -862,7 +862,9 @@ nav{
 }
 .section3{
   height: fit-content;
-  padding: 15px 30px;
+  position: relative;
+  bottom: 100px;
+  padding: 0px 10px;
 }
 
 .section5{

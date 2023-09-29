@@ -166,6 +166,7 @@ nav{
   font-size: 13px;
 }
 
+
 .createacct{
   background-color: #f48225!important;
   border: none!important;
@@ -179,4 +180,27 @@ nav{
 }
 .container2{
   width: 400px !important;
+}
+.mb{
+  margin-bottom: 3000px !important;
+}
+.marg{
+  margin-top: 80px !important;
+}
+.bg-white{
+  background-color: white;
+  height: 100vh;
+}
+.size{
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.bg-grey{
+  background-color: rgb(226, 224, 224);
+}
+.width{
+  width: 320px;
+  color: grey !important;
+  font-weight: bold;
 }

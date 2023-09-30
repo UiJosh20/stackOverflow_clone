@@ -189,7 +189,8 @@ nav{
     background-color: #e1ecf4!important;
   }
   nav{
-    display: block;
+    display: flex;
+    align-items: center;
     border-top: 2px solid #f48225;
       width: 100%;
       background-color: #fff;
@@ -224,7 +225,7 @@ nav{
   
   .product{
     display: inline-block!important;
-    /* margin-left: -44px!important; */
+    /* margin-left: -24px!important; */
     font-size: 13px!important;
   
   }
@@ -288,6 +289,9 @@ nav{
 .logo2{
   margin-left: 60px;
   display: inline-block;
+}
+.shown{
+ width: 120px;
 }
 
 }

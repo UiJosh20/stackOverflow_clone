@@ -498,7 +498,8 @@ nav{
  }
 
  nav{
-  display: block;
+  display: flex;
+  align-items: center;
   border-top: 2px solid #f48225;
     width: 100%;
     background-color: #fff;
@@ -506,7 +507,9 @@ nav{
     border-bottom: 1px solid rgb(194, 194, 194);
     position: fixed;
  }
-
+ .shown{
+  width: 120px;
+ }
   .login{
     background-color: #e1ecf4!important;
   }
@@ -528,7 +531,7 @@ nav{
   }
   .search{
     border:none;
-    margin-left: 50px;
+
   }
   
   .search img{
@@ -542,7 +545,7 @@ nav{
   
   .product{
     display: inline-block!important;
-    /* margin-left: -44px!important; */
+    /* margin-left: -24px!important; */
     font-size: 13px!important;
   
   }
@@ -607,6 +610,7 @@ nav{
   margin-left: 60px;
   display: inline-block;
 }
+
 
   .main1{
     display: none;

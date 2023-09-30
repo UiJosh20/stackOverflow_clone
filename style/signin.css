@@ -230,11 +230,16 @@ nav{
      border-top: 2px solid #f48225;
      width: 100%;
      background-color: #fff;
-     display: inline-block;
+     display: flex;
+     align-items: center;
     z-index: 200;
      border-bottom: 1px solid rgb(194, 194, 194);
      position: fixed;
    
+   }
+   .shown{
+    width: 120px;
+
    }
    .logo2>img{
      margin-left: -10px;

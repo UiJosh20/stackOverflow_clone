@@ -484,7 +484,9 @@ nav{
   width: 500px;
   height: 300px;
 }
-
+.jumpIn1{
+  display: none;
+}
 
 
 
@@ -756,10 +758,12 @@ nav{
   .none{
     display: none;
   }
+  .jump{
+    display: none;
+  }
 
-  .jumpIn{
-    display: flex;
-    flex-direction: column;
+  .jumpIn1{
+    display: block;
   }
 
   .smallfo>p{

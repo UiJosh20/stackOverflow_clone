@@ -17,18 +17,18 @@
 </head>
 <body>
   
-  <nav class="w-100">
-    <a class="hamburger" href="#menu" id="hamburger-icon" class="col-sm">
+  <nav class="w-100 container-fluid">
+    <a class="hamburger col-sm" href="#menu" id="hamburger-icon" class="col-sm">
       <span class="material-icons text-dark sm">
         menu
       </span>
     </a>
-    <a class="close hidden" href="#" id="close-icon">
+    <a class="close hidden col-sm" href="#" id="close-icon">
       <span class="material-icons text-dark">
         close
       </span>
     </a>
-    <ul class="menu sm" id="menu">
+    <ul class="menu sm col-sm" id="menu">
       <li><a href="index.html" class="home">Home</a></li>
       <small>PUBLIC</small>
       <li class="world"><img src="svg-export/svgexport-1.svg" alt=""><a href="#">Questions</a></li>
@@ -369,7 +369,49 @@
         <button class="btn btn-primary buttonBlue p-3 fw-bold">Take a tour of Teams</button>
       </div>
     </div>
+      <!-- visible on phone screen -->
+    <div class="container-fluid px-3 jumpIn1">
+      <div class="row">
 
+        <div class="animation1  animate__animated animate__bounceIn animate__delay-1s col-sm w-100">
+          <div class="d-flex justify-content-center">
+            <img src="svg-export/svgexport-21.svg" alt="">
+          </div>
+          <h5 class="text-light text-center">Increase productivity</h5>
+          <p>If somebody somewhere has the right answer, suddenly you have it too. Collaborate better in a remote-first world.</p>
+        </div>
+  
+        <div class="animation1 animate__animated animate__bounceIn animate__delay-2s col-sm w-100">
+          <div class="d-flex justify-content-center">
+            <img src="svg-export/svgexport-21.svg" alt="">
+          </div>
+          <h5 class="text-light text-center">Accelerate time to market</h5>
+          <p>Shorten the time between initial idea and complete product. Take delays and misinformation out of the equation.</p>
+        </div>
+  
+        <div class="animation1 animate__animated animate__bounceIn animate__delay-3s col-sm w-100">
+          <div class="d-flex justify-content-center">
+            <img src="svg-export/svgexport-21.svg" alt="">
+          </div>
+          <h5 class="text-light text-center">Protect institutional knowledge</h5>
+          <p>People come and people go, but if you capture their contributions in one central place, that expertise sticks around.</p>
+        </div>
+  
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+      <!-- visible on larg screen -->
+      <div class="jump">
     <div class="px-3 d-flex gap-3 justify-content-center jumpIn">
       <div class="animation1  animate__animated animate__bounceIn animate__delay-1s">
         <div class="d-flex justify-content-center">
@@ -396,6 +438,7 @@
       </div>
 
     </div>
+  </div>
 
     <hr class="border border-info">
 

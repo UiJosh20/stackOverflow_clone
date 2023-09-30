@@ -491,28 +491,29 @@ nav{
 
 
 
-
-
-
 @media screen and (max-width: 475px) {
 
  body,html{
   overflow-x: hidden;
  }
 
-  .login{
-    background-color: #e1ecf4!important;
-  }
-  nav{
-    border-top: 2px solid #f48225;
+ nav{
+  display: block;
+  border-top: 2px solid #f48225;
     width: 100%;
     background-color: #fff;
-    display: inline-block;
    z-index: 200;
     border-bottom: 1px solid rgb(194, 194, 194);
     position: fixed;
-  
+ }
+
+  .login{
+    background-color: #e1ecf4!important;
   }
+  .hry{
+    display: none;
+  }
+ 
   .logo2>img{
     margin-left: -10px;
     margin-right: 10px;
@@ -527,6 +528,7 @@ nav{
   }
   .search{
     border:none;
+    margin-left: 50px;
   }
   
   .search img{
@@ -540,7 +542,7 @@ nav{
   
   .product{
     display: inline-block!important;
-    margin-left: -44px!important;
+    /* margin-left: -44px!important; */
     font-size: 13px!important;
   
   }

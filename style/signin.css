@@ -204,3 +204,151 @@ nav{
   color: grey !important;
   font-weight: bold;
 }
+
+.smallsreen{
+  display: none;
+}
+.bom{
+  border-top: 2px solid rgb(209, 208, 208);
+  height: 200px;
+  text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 475px) {
+
+  body,html{
+   overflow-x: hidden;
+  }
+ 
+   .login{
+     background-color: #e1ecf4!important;
+   }
+   nav{
+     border-top: 2px solid #f48225;
+     width: 100%;
+     background-color: #fff;
+     display: inline-block;
+    z-index: 200;
+     border-bottom: 1px solid rgb(194, 194, 194);
+     position: fixed;
+   
+   }
+   .logo2>img{
+     margin-left: -10px;
+     margin-right: 10px;
+   }
+   .anchors a{
+     display: none;
+   }
+ 
+   .hamburger{
+     margin-left: -50px;
+     margin-right: 20px!important;
+   }
+   .search{
+     border:none;
+   }
+   
+   .search img{
+     display: inline-block;
+     margin-left: -2px;
+     margin-right: -5px;
+   }
+   .search input{
+     display: none;
+   }
+   
+   .product{
+     display: inline-block!important;
+     margin-left: -44px!important;
+     font-size: 13px!important;
+   
+   }
+ 
+   .menu {
+     position: fixed;
+     /* give the menu a larger z-index than the ham link
+     to put the menu above it */
+     z-index: 100;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     width: 260px;
+     height: 100vh;
+     /* basic menu styling*/
+     list-style: none;
+     background: white;
+     display: flex;
+     flex-direction: column;
+     /* animate slide left/right */
+     transform: translateX(-200%);
+     transition: linear 0.5s ease-out;
+     padding: 20px;
+     overflow-y:scroll;
+   
+   }
+ 
+ 
+ 
+ /* Add a class to hide the close icon initially */
+ .close {
+   position: absolute;
+   /* a large z-index puts the ham button above the rest of the page*/
+   z-index: 99;
+   background: white;
+   border: none;
+   cursor: pointer;
+   padding: 10px 5px 4px 10px;
+   height: 30px;
+   top: 10px;
+   left: 0px;
+   /* Add this line to hide the close icon initially */
+   display: none;
+ }
+ 
+ /* Add styles to show the close icon when the 'menu-open' class is applied */
+ .close:not(.hidden) {
+   display: block;
+   margin-left: 20px;
+ }
+ 
+ /* Add styles to show the menu when the 'menu-open' class is applied */
+ .menu.menu-open {
+   transform: translate(-40px, 60px);
+   margin-left: 40px;
+ }
+ .logo{
+   display: none;
+ }
+ .logo2{
+   margin-left: 60px;
+   display: inline-block;
+ }
+
+ .largescreen{
+  display: none;
+ }
+
+   .smallsreen{
+    display: block;
+   }
+
+   .bg-white{
+      height: fit-content;
+      padding: 30px 10px !important;
+   }
+   section{
+    display: none;
+   }
+   .bom{
+    border-top: 2px solid rgb(209, 208, 208);
+    height: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+  }
+} 

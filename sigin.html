@@ -68,10 +68,69 @@
   </nav>
 
 
-<main class="p-5 w-100 marg d-flex justify-content-center">
+  <!-- visible on small screen -->
+  <main class="container-fluid smallsreen border border-info">
+    <div class="row mt-5">
+      <div class="w-100 col-sm-12 bg-white shadow px-5 pt-4">
+        <div class="text-center">
+          <h2>Sign In</h2>
+        </div>
+          <div class="mb-3">
+            <label for="" class="form-label">First Name</label>
+            <input type="text" class="form-control" required placeholder="Enter first name">
+          </div>
+          <div class="mb-3">
+            <label for="" class="form-label">Last Name</label>
+            <input type="text" class="form-control" placeholder="Enter last name" required>
+          </div>
+    
+        <div class="mb-3">
+          <div>
+            <label for="" class="form-label">Email Address</label>
+            <input type="email" class="form-control" placeholder="Enter email address" required>
+          </div>
+        </div>
   
+          <div class="mb-3">
+            <label for="" class="form-label">Password</label>
+            <input type="password" class="form-control" required placeholder="Enter a strong password">
+          </div>
+          <div class="mb-3">
+            <label for="" class="form-label">Confirm Password</label>
+            <input type="text" class="form-control" placeholder="Confirm your password" required>
+          </div>
+      
+        <div class="mt-4">
+          <input type="checkbox" class="form-check-input me-3">
+          <a href="#" class=" text-decoration-none"><small for="">Terms and conditions</small></a>
+        </div>
+    
+        <button class="btn btn-primary w-100 my-4 fw-bold">
+          Sign in
+        </button>
 
-  <div class="w-50 bg-white shadow rounded-4 px-5 pt-4">
+        <div class="bom p-2 rounded-3">
+          <p>if you already have an account, kindly <a href="login.html" class="text-decoration-none">Login here</a></p>
+    
+        </div>
+        
+    
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+
+
+
+  <!-- visible on large screen -->
+  <section>    
+<main class="p-5 w-100 marg d-flex justify-content-center">
+  <div class="w-50 bg-white shadow rounded-4 px-5 pt-4 largescreen">
     <div class="text-center">
       <h2>Sign In</h2>
     </div>
@@ -109,24 +168,20 @@
       <a href="#" class="text-warning"><label for="">Terms and conditions</label></a>
     </div>
 
-    <div class="mt-4">
-      <div class="width bg-grey p-2 rounded-3 d-flex align-items-center gap-5">
-        <input type="checkbox" class="form-check-input size">
-        <span>I am not a robot</span>
-        <img src="images/google_recaptcha-official.svg" alt="" width="50">
-      </div>
-    </div>
-
-    <button class="btn btn-primary w-100 mt-4 fw-bold">
+    <button class="btn btn-primary w-100 my-4 fw-bold">
       Sign in
     </button>
 
+    <div class="bom p-3 rounded-3">
+      <p>if you already have an account, kindly <a href="login.html" class="text-decoration-none">Login here</a></p>
+
+    </div>
 
   </div>
 
 
 </main>
-
+</section>
   
 </body>
 </html>

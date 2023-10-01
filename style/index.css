@@ -987,8 +987,7 @@ nav{
 }
 .smallflex>li{
   display: flex;
- 
-  margin-left: -20px;
+  justify-content: center;
 }
 
 .down{

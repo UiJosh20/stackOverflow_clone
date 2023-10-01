@@ -512,20 +512,11 @@ nav{
 .bg-white{
   background-color: white;
 }
-.cutout{
-  border-radius: 100%;
-  height: 50vh;
-  position: relative;
-  top: 130px;
-  background-color: white;
-}
+
 .footer1{
   margin-top: -200px;
 }
-.darkblue{
-  background-color: #004585;
-  background-size: cover;
-}
+
 .smalltext{
   font-size: 13px; 
   color: #e9e8e8; 
@@ -947,6 +938,80 @@ nav{
   bottom: 60px;
   padding: 0px 50px !important;
 }
+.beforefoot{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px 30px;
 
+}
+.lastLads{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+.lastLads>ul{
+  padding: 0;
+  margin: 0;
+  margin-top: 23px;
+  
+}
+.lastLads>ul>li{
+  border-bottom: 1px solid rgb(20, 20, 20);
+  padding: 10px;
+}
+
+
+.smalltext{
+  font-size: 13px; 
+  color: #e9e8e8; 
+}
+.smalltext>img{
+  display: none;
+}
+.smalltxt{
+  font-size: 11px;
+  color: #b9b9b9;
+}
+.smalltxt1{
+  font-size: 11px;
+  color: #b9b9b9;
+  margin-left: 10px;
+}
+
+.smalltxt2{
+  font-size: 11px;
+  color: #b9b9b9;
+
+}
+.smallflex>li{
+  display: flex;
+ 
+  margin-left: -20px;
+}
+
+.down{
+  margin-top: 30px;
+}
+
+.posi{
+  position: relative;
+  top: 50px;
+}
+.posi>img{
+  width: 170px;
+}
+.posi2{
+  position: relative;
+  bottom: 270px;
+  margin-top: 30px;
+}
+
+.posi>p{
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 15px !important;
+}
 
 }

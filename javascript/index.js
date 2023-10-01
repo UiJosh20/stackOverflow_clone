@@ -28,3 +28,6 @@ function closeMenu() {
 // Add click event listeners to the hamburger and close icons
 hamburgerIcon.addEventListener("click", openMenu);
 closeIcon.addEventListener("click", closeMenu);
+
+
+

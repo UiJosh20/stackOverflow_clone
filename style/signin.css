@@ -357,4 +357,13 @@ nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
   }
+  
+  input{
+    font-size: 12px !important;
+    color: #d9dde0 !important;
+  }
+  label{
+    font-size: 12px !important;
+    color: rgb(145, 145, 145) !important;
+  }
 } 
